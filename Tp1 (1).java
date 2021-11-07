@@ -117,7 +117,7 @@ public class Tp1 {
         s=String.valueOf(s1);                                             //reconvertion de texte dechiffré en chaine de caracteres 
         return s;
     }
-    public static int compteOccurences(String maChaine,char recherche) {  //definition de la fonction compte occurence utilise en haut
+    public static int compteOccurences(String maChaine,char recherche) {  //definition de la fonction compte occurence qui est utilisée en haut
        
     maChaine=maChaine.toLowerCase();
     int nb=0;
