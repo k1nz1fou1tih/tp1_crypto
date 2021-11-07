@@ -60,7 +60,7 @@ public class Tp1 {
         
         
         
-        String alphabet="abcdefghijklmnopqrstuvwxyz"; //chaine de caractere qui contient toute l'alphabet en ordre 
+        String alphabet="abcdefghijklmnopqrstuvwxyz";    //chaine de caractere qui contient toute l'alphabet en ordre 
                                                        // pour connaitre la position de chaque lettre dans l'alphabet 
         
         int c=0;                                        
@@ -69,7 +69,7 @@ public class Tp1 {
         for (int j=0;j<25;j++){                          // calculer l'occurence de chaque lettre de  l'alphabet 
             
            int b ;
-            b = compteOccurences(ss,alphabet.charAt(j)); //fonction qui calcule le nombre d'occurence d'une lettre dans une chaine 
+            b = compteOccurences(ss,alphabet.charAt(j));     //fonction qui calcule le nombre d'occurence d'une lettre dans une chaine 
           if (b>=c){
           c=b;                                             //contient toujours le nombre d'occurence de la la lettre la plus fréquente
           e=alphabet.charAt(j);                            //garder la lettre la plus frequente 
